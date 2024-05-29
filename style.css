@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.nav_bar {
+    height: 10.09vh;
+    width: 100vw;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav_bar ul {
+    width: 100vw;
+    height: 10.09vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* font-size: ; */
+}
+
+.tasky_logo {
+    height: 62px;
+    width: 202.6px;
+}
+
+.switch_profile_btn {
+    width: 237px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #f3f5fb;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B0967;
+}
+
+.nav_bar ul li {
+    list-style: none;
+}
+
+.nav_bar ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.nav_bar ul li a:hover {
+    color: #34A853;
+    font-weight: 700;
+}
+
+.nav_bar ul li a i {
+    font-size: 20px;
+}
+
+.create_post_btn {
+    width: 160px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    padding: 13px, 22px;
+    background-color: #34A853;
+    font-size: 20px;
+    color: #FFFFFF;
+}
